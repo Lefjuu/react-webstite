@@ -4,8 +4,8 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Link
 } from "react-router-dom";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
 <Router>
       <Navbar />
       <Routes>
-        <Route path="/" exact />
+        <Route path="/" exact element={<Home/>}/>
       </Routes>
     </Router>
 
