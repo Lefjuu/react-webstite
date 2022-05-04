@@ -18,7 +18,7 @@ export default function Footer() {
                     </form>
                 </div>
             </section>
-            <div className="footer-links">
+            <div className="footer-link">
                 <div className="footer-link-wrapper">
                     <div class='footer-link-items'>
                         <h2>About Us</h2>
